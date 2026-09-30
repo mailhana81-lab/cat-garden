@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>비 오는 고양이 정원</title>
+<meta name="description" content="톡, 고양이를 눌러보세요. 빗소리 속 여섯 고양이의 작은 정원.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23133723'/%3E%3Ctext x='4' y='25' font-size='24'%3E🐱%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+<div class="background" aria-hidden="true"><img src="assets/background.jpg" alt=""></div>
+<header><span class="site-name">비 오는 고양이 정원</span><button id="rain-toggle" type="button" aria-pressed="false"><span aria-hidden="true">☂</span> <span id="rain-label">빗소리 켜기</span></button></header>
+<main id="garden" aria-label="눌러서 모습과 소리를 바꾸는 고양이 여섯 세트"></main>
+<footer>고양이를 톡, 눌러보세요</footer><p id="status" role="status" class="sr-only"></p>
+<audio id="rain" src="assets/rain.mp3" loop preload="auto" autoplay></audio>
+</body></html>
